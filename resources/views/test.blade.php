@@ -1,0 +1,1 @@
+{{ dd(tenant(),config('database.connections')) }}

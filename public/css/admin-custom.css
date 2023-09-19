@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+html,body,h1,h2,h3,h4,h5,h6,p,a,form,button,ul,li,div
+{
+    font-family: 'Cairo', sans-serif !important;
+}
+html,body
+{
+        direction: rtl;
+    text-align: right;
+}
+.menu-footer
+{
+    right: 0;
+    left:auto;
+}
+.checkbox {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    margin-left: 0;
+    margin-right: -20px;
+}
+#side-menu.nav
+{
+    padding-right: 0;
+}
+.sidebar .arrow {
+    left: 15px;
+    right: auto;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: right;
+}
+#page-wrapper {
+    position: inherit;
+    margin: 0 220px 0 0;
+}
+.sidebar .fa.arrow:before {
+    content: "\f104";
+}
+.nav {
+    padding-right: 10px;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+    position: relative;
+    float: right;
+}
+.pull-right {
+    float: left!important;
+}
+.pull-left {
+    float: right!important;
+}
+.pull-right>.dropdown-menu {
+    left: 0;
+    right: auto;
+}
+div.dt-buttons {
+    float: left !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.text-right {
+    text-align: left;
+}
+.text-left {
+    text-align: right;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+.table-responsive .dropdown-menu {
+    left: 0;
+    right: auto;
+    text-align: right;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.phone_country_code {
+    border-radius: 0px 4px 4px 0px !important;
+}
+.field-icon {
+    float: left;
+    margin-right: -25px;
+    margin-left: 0;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+th {
+    text-align: right;
+}
+.close {
+    float: left;
+}
+.form-horizontal .form-group {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    margin-bottom: 25px;
+}
+.checkbox label
+{
+        padding-right: 5px;
+            padding-left: 0px;
+}
+.checkbox label::before
+{
+    right:0;
+    left:auto;
+        margin-right: -20px;
+            margin-left: auto;
+}
+.m-r-5 {
+    margin-left: 5px!important;
+    margin-right: 0px!important;
+}
+.m-r-4 {
+    margin-left: 4px!important;
+    margin-right: 0px!important;
+}
+.m-r-3 {
+    margin-left: 3px!important;
+    margin-right: 0px!important;
+}
+.m-r-2 {
+    margin-left: 2px!important;
+    margin-right: 0px!important;
+}
+.m-r-1 {
+    margin-left: 1px!important;
+    margin-right: 0px!important;
+}
+.m-l-5 {
+    margin-left: 5px!important;
+    margin-right: 0px!important;
+}
+.m-l-4 {
+    margin-right: 4px!important;
+    margin-left: 0px!important;
+}
+.m-l-3 {
+    margin-right: 3px!important;
+    margin-left: 0px!important;
+}
+.m-l-2 {
+    margin-right: 2px!important;
+    margin-left: 0px!important;
+}
+.m-l-1 {
+    margin-right: 1px!important;
+    margin-left: 0px!important;
+}
+.select2-container .select2-choice .select2-arrow
+{
+    left: 0;
+    right: auto;
+}
+.radio {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.radio label::before
+{
+            left: auto;
+    margin-left: auto;
+        right: 0px;
+    margin-right: -20px;
+
+}
+.radio label::after
+{
+        left: auto;
+    margin-left: auto;
+        right: 5px;
+    margin-right: -20px;
+}
+.dropdown-menu
+{
+    right:auto;
+    left:auto;
+    text-align:right;
+        float: right;
+}
+
+.pull-right-lg {
+    float: left;
+}
+.pull-left-lg {
+    float: right;
+}
+.asColorPicker-trigger
+{
+    left: -35px;
+    right:auto;
+}
+.content-wrapper #page-wrapper {
+    margin-right: 60px;
+    margin-left: 0;
+}
+
+.m-r-10 {
+    margin-left: 10px!important;
+            margin-right: auto !important;
+
+}
+.m-l-10 {
+    margin-right: 10px!important;
+
+        margin-left: auto !important;
+
+}
+.tabs-style-line nav a
+{
+        text-align: right;
+}
+.checkbox label::after
+{
+        right: 0;
+    padding-right: 3px;
+    left: auto;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: -20px;
+}
+#auth-form .checkbox label {
+    padding-right: 18px;
+    padding-left: 0px;
+}
+.nav-tabs>li {
+    float: right;
+}
